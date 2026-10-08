@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 8px 10px;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+.required-star {
+    color: red;
+    font-weight: bold;
+}
+
+body > label:first-child {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+body > b {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+form {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0 2px;
+    padding: 0;
+}
+
+form > label {
+    display: inline-block;
+    width: 160px;
+    margin-right: 5px;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.contact-option {
+    display: flex;
+    align-items: center;
+    margin-left: 168px;
+    height: 14px;
+    font-size: 11px;
+}
+
+.contact-option input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="fax"] {
+    width: 180px;
+    height: 18px;
+    padding: 1px 3px;
+    margin: 0;
+    border: 1px solid #999;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+textarea {
+    width: 180px;
+    min-height: 18px;
+    padding: 1px 3px;
+    margin: 0;
+    border: 1px solid #999;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+#comment {
+    width: 245px;
+    height: 55px;
+    resize: both;
+}
+
+select {
+    height: 18px;
+    padding: 0 2px;
+    border: 1px solid #999;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+select#state {
+    width: 100px;
+}
+
+select#country {
+    width: 230px;
+}
+
+input[type="radio"] {
+    width: auto;
+    height: auto;
+    margin: 0 2px 0 3px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    display: inline;
+    width: auto;
+    text-align: left;
+    font-weight: normal;
+}
+
+input[type="radio"] + label {
+    margin-right: 3px;
+}
+
+input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    margin: 0 4px 0 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+input[name="amount"] {
+    margin-left: 2px;
+}
+
+input[name="amount"] + label {
+    display: inline;
+    width: auto;
+    margin-right: 3px;
+    font-weight: normal;
+}
+
+#otheramount {
+    width: 180px;
+}
+
+input[name="recurring"] {
+    margin-left: 2px;
+}
+
+.other-amount-text,
+.monthly-text {
+    display: inline-block;
+    margin-left: 168px;
+    margin-right: 5px;
+}
+
+.other-amount-text {
+    font-weight: bold;
+}
+
+.monthly-text {
+    font-weight: normal;
+}
+
+.small-text {
+    display: inline;
+    margin: 0 5px;
+    font-weight: normal;
+}
+
+.credit-card {
+    width: 55px !important;
+}
+
+.months {
+    width: 45px !important;
+}
+
+#honor,
+#memory {
+    margin-left: 165px;
+}
+
+#cb1,
+#cb2,
+#cb3,
+#cb4 {
+    margin-left: 0;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    height: 28px;
+    padding: 2px 12px;
+    margin-top: 5px;
+    margin-right: 3px;
+    border: 1px solid #888;
+    border-radius: 15px;
+    background: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    margin-left: 110px;
+}
+
+form > label:last-child {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+br {
+    line-height: 4px;
+}
